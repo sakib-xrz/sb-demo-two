@@ -18,7 +18,7 @@ const services = [
       "We boost your website’s visibility with strategic keywords and content to increase traffic and long-term growth",
   },
   {
-    title: "Participant Portal Development",
+    title: "Portal Development",
     description:
       "We create smart, secure portals that simplify referrals, track needs, and keep you connected in one place",
   },
@@ -38,28 +38,16 @@ export default function Services() {
   return (
     <section className="service-two">
       <div className="service-two__shape1">
-        <img
-          src="https://thememxpro.com/php-template/diligent/assets/img/shape/service-two__shape1.png"
-          alt="shape"
-        />
+        <img src="assets/images/service_1.png" alt="shape" />
       </div>
       <div className="service-two__shape2">
-        <img
-          src="https://thememxpro.com/php-template/diligent/assets/img/shape/service-two__shape2.png"
-          alt="shape"
-        />
+        <img src="assets/images/service_2.png" alt="shape" />
       </div>
       <div className="service-two__shape3">
-        <img
-          src="https://thememxpro.com/php-template/diligent/assets/img/shape/service-two__shape3.png"
-          alt="shape"
-        />
+        <img src="assets/images/service_3.png" alt="shape" />
       </div>
       <div className="service-two__shape4 float-bob-y">
-        <img
-          src="https://thememxpro.com/php-template/diligent/assets/img/shape/service-two__shape4.png"
-          alt="shape"
-        />
+        <img src="assets/images/service_4.png" alt="shape" />
       </div>
 
       <div className="container">
@@ -84,19 +72,10 @@ export default function Services() {
                 visibility: "visible",
                 animationDelay: `0.${index + 1}s`,
                 animationName: "fadeInUp",
+                zIndex: "100",
               }}
             >
               <div className="service-two__single">
-                <div
-                  className={`service-two__single-icon-box color${
-                    (index % 3) + 1
-                  }`}
-                >
-                  <span className="icon-website-design">
-                    <span className="path1"></span>
-                    <span className="path2"></span>
-                  </span>
-                </div>
                 <div className="service-two__single-title-box">
                   <h3>
                     <a href="#">{service.title}</a>

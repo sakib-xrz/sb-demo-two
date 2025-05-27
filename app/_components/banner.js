@@ -10,13 +10,19 @@ export default function Banner() {
             <video autoPlay muted loop playsInline id="heroVideo">
               <source src="assets/images/stvideo.mp4" type="video/mp4" />
             </video>
-            <div className="ovrl" style={{ opacity: 0.25 }}></div>
+            <div className="ovrl" style={{ opacity: 0.5 }}></div>
           </div>
           <div className="container">
             <h1 className="title onovo-text-white">
-              <span data-splitting data-onovo-scroll>
+              <p data-splitting data-onovo-scroll>
                 Unlock Your <br />
-                Digital Potential{" "}
+                <span
+                  style={{
+                    color: "#ffc605",
+                  }}
+                >
+                  Digital Potential
+                </span>{" "}
                 <span className="onovo-sep word">
                   <i
                     className="sep-img"
@@ -25,7 +31,7 @@ export default function Banner() {
                     }}
                   ></i>
                 </span>
-              </span>
+              </p>
             </h1>
             <div className="text">
               <div className="subtitle onovo-text-white">

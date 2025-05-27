@@ -52,7 +52,7 @@
 /* Service cards */
 .service-two__single {
   background: white;
-  padding: 40px 30px;
+  padding: 40px 20px;
   border-radius: 10px;
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -132,21 +132,4 @@
   font-size: 18px;
   color: #666;
   margin-bottom: 60px;
-}
-
-/* Icon fonts - you'll need to replace these with actual icons */
-.icon-website-design:before {
-  content: "🎨";
-}
-.icon-design-strategy:before {
-  content: "📋";
-}
-.icon-free-consultation:before {
-  content: "💬";
-}
-.icon-web-development1:before {
-  content: "💻";
-}
-.icon-next:before {
-  content: "→";
 }
